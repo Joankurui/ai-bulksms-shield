@@ -5,7 +5,7 @@ import logging
 import requests
 
 # --- Environment Variables ---
-PROJECT_ID = os.environ.get("PROJECT_ID", "478816")  # fallback
+PROJECT_ID = os.environ.get("PROJECT_ID", "aiagent-478816")  # fallback
 REGION = os.environ.get("REGION", "global")
 GEMINI_MODEL_NAME = "gemini-2.5-flash"
 
@@ -57,3 +57,5 @@ if prompt := st.chat_input("Type SMS content here"):
         result = call_model(prompt)
         st.session_state["messages"].append({"role": "assistant", "content": result})
         st.chat_message("assistant").write(result)
+
+
