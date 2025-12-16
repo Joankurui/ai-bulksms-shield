@@ -55,7 +55,7 @@ ai-bulksms-shield/
 │   └── .venv/              # Virtual environment (local)
 │
 ├── README.md
-└── demo.mp4 (optional)
+└── demo.mp4 
 ```
 
 ---
