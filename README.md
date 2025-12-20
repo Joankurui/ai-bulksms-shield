@@ -49,10 +49,10 @@ Project Structure
 ```
 ai-bulksms-shield/
 │
-├── backend/
-│   ├── app.py              # Main Streamlit application
-│   ├── requirements.txt   # Python dependencies
-│   └── .venv/              # Virtual environment (local)
+|
+|── app.py              # Main Streamlit application
+|── requirements.txt   # Python dependencies
+| .venv/              # Virtual environment (local)
 │
 ├── README.md
 └── demo.mp4 
@@ -94,7 +94,7 @@ gcloud services enable aiplatform.googleapis.com
 
 ```bash
 git clone https://github.com/Joankurui/ai-bulksms-shield.git
-cd ai-bulksms-shield/backend
+cd ai-bulksms-shield
 ```
 
 ---
